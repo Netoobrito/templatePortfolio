@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PORTFÓLIO</title>
+  <link rel="stylesheet" href="bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-light">
+  <header class="py-5">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="text-start">
+        <h1 class="display-3 fw-bold text-danger">
+          Meu <span>Portfólio</span>
+        </h1>
+        <p class="lead text-secondary">Do conceito à criação visual.</p>
+      </div>
+      <div class="text-end">
+        <h1 class="display-3 fw-bold text-danger">Neto Brito</h1>
+      </div>
+    </div>
+  </header>
+
+  <!-- Carrossel -->
+  <div id="carouselExampleInterval" class="carousel slide mb-5" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./imagens/A LIVE (2).png" class="d-block w-100" alt="Slide 1" />
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./imagens/A LIVE (2).png" class="d-block w-100" alt="Slide 2" />
+      </div>
+      <div class="carousel-item">
+        <img src="./imagens/A LIVE (2).png" class="d-block w-100" alt="Slide 3" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Próximo</span>
+    </button>
+  </div>
+
+  <!-- Cards -->
+  <div class="container mb-5">
+    <div id="cards-real" class="row text-center">
+
+      <!-- CARD 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4">
+          <div class="card-body">
+            <div class="img-hover">
+              <img src="./imagens/SIMBOLO1.png" alt="Imagem normal" class="img-normal" />
+              <img src="./imagens/NETO 1.png" alt="Imagem hover" class="img-hovered" />
+            </div>
+            <h5 class="card-title mt-3">Sobre mim</h5>
+            <p class="card-text">Desde pequeno sempre gostei de desenhar, hoje transformo essa paixão em profissão.</p>
+            
+            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#info1" aria-expanded="false" aria-controls="info1">
+              Saiba mais
+            </button>
+
+            <div class="collapse mt-3" id="info1" >
+              <div class="card card-body border-danger">
+                <p><strong>Minha trajetória:</strong> Sou Edvaldo da Silva Brito Neto, designer gráfico com experiência em campanhas publicitárias, redes sociais e projetos institucionais, criando soluções visuais criativas e impactantes.
+
+Atuei na Secretaria de Cultura e Esportes de Afogados da Ingazeira - PE, desenvolvendo materiais gráficos para eventos, redes sociais e campanhas oficiais, além de fortalecer a identidade visual da instituição. Na Novo Traço - Marketing, criei campanhas e materiais institucionais com foco em comunicação estratégica e presença digital.
+
+Sou graduando em Ciência da Computação pela UNINASSAU – Recife e domino Adobe Photoshop, CorelDRAW, Figma e Canva, com experiência em fotografia, tratamento de imagens e artes digitais e impressas. Concluí o Ensino Médio na Escola Monteiro Lobato – Afogados da Ingazeira – PE, em 2021.
+
+Busco constantemente aprimorar minhas habilidades para entregar projetos com qualidade estética, funcionalidade e propósito.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4">
+          <div class="card-body">
+            <div class="img-hover">
+              <img src="./imagens/SIMBOLO1.png" alt="Imagem normal" class="img-normal" />
+              <img src="./imagens/NETO 1.png" alt="Imagem hover" class="img-hovered" />
+            </div>
+            <h5 class="card-title mt-3">Designs</h5>
+            <p class="card-text">Ilustrações digitais personalizadas e criativas para projetos visuais.</p>
+
+            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#info2" aria-expanded="false" aria-controls="info2">
+              Ver Projetos
+            </button>
+
+            <div class="collapse mt-3" id="info2">
+              <div class="card card-body border-danger">
+                <p><strong>Projetos de Ilustração:</strong> Artes autorais, personagens e ilustrações comerciais.</p>
+                <img src="./imagens/2.png" class="img-fluid rounded mb-2" alt="Ilustração 1">
+                <img src="./imagens/4.png" class="img-fluid rounded" alt="Ilustração 2">
+                <img src="./imagens/6.png" class="img-fluid rounded mb-2" alt="Ilustração 3">
+                <img src="./imagens/5.png" class="img-fluid rounded" alt="Ilustração 4">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card p-4">
+          <div class="card-body">
+            <div class="img-hover">
+              <img src="./imagens/SIMBOLO1.png" alt="Imagem normal" class="img-normal" />
+              <img src="./imagens/NETO 1.png" alt="Imagem hover" class="img-hovered" />
+            </div>
+            <h5 class="card-title mt-3">Faculdade</h5>
+            <p class="card-text">Trabalhos que unem design, programação e criatividade.</p>
+
+            <button class="btn btn-danger" type="button" data-bs-toggle="collapse" data-bs-target="#info3" aria-expanded="false" aria-controls="info3">
+              Ver Projetos
+            </button> 
+
+            <div class="collapse mt-3" id="info3">
+              <div class="card card-body border-danger">
+                <p><strong>Projetos:</strong> Projetos desenvolvidos na faculdade, sozinho e em equipe.</p>
+                <img src="./imagens/encanto1.png" class="img-fluid rounded mb-2" alt="Edição 1">
+                <p>O Encanto Tropical é um e-commerce voltado para a venda de flores, criado com o objetivo de unir beleza e praticidade. O projeto foi inicialmente desenvolvido no Figma, onde o design e o protótipo foram elaborados, e depois colocado em prática no VS Code, transformando o conceito em um site funcional e visualmente agradável.</p>
+                <img src="./imagens/wisdom.png" class="img-fluid rounded" alt="Edição 2">
+                <p>O +Wisdom é um aplicativo de estudos desenvolvido como protótipo para um projeto acadêmico. Criado com foco em facilitar o aprendizado e a organização dos estudos, ele foi inteiramente projetado no Figma, atendendo aos requisitos da disciplina. Apesar de ainda não ter sido implementado, nossa equipe tem o objetivo de transformar esse protótipo em um aplicativo funcional no futuro.</p>
+                <img src="./imagens/mario.png" class="img-fluid rounded" alt="Edição 2">
+                <p>Este mini jogo foi desenvolvido com base em um tutorial indicado pelo professor, utilizando o VS Code como ambiente de programação. O projeto foi uma oportunidade prática de aplicar conceitos de lógica e programação de jogos. O resultado é um game totalmente funcional e jogável, criado com dedicação e aprendizado constante.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+<footer>
+  <p>© 2025 - Desenvolvido por Neto Brito | Portfólio acadêmico e profissional</p>
+</footer>
+
+  <script src="bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
